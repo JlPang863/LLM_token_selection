@@ -18,7 +18,7 @@ base_model="mistralai/Mistral-7B-v0.3"
 reference_model="/mnt/data1/jinlong/token_selection_output/models/${base_model}/data_prop_0.6/lora_merged_filtered-cured-10k-warmup-mistral"
 
 with_prompt_token=False
-token_select_pattern="semi_select" #'random_semi_shift', 'semi_select', 'random_select', "loss_ranking_select", "all_token_select"
+token_select_pattern="token_cleaning" #'random_semi_shift', 'semi_select', 'random_select', "loss_ranking_select", "all_token_select"
 select_token_level=global 
 
 # select_token_level=global  ## token_ranking_sample_select global global-positive sample-positive sample union intersection  additional_two_tokens  combine_loss

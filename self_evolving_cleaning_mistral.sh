@@ -20,7 +20,7 @@ base_model="mistralai/Mistral-7B-v0.3"
 
 with_prompt_token=False
 select_token_level=global ## global global-positive sample-positive sample union intersection  additional_two_tokens  combine_loss
-token_select_pattern=semi_select #"semi_combine_global_half_positive_select" #'random_semi_shift', 'semi_select', 'random_select', "loss_ranking_select", "all_token_select"
+token_select_pattern=random #"semi_combine_global_half_positive_select" #'random_semi_shift', 'semi_select', 'random_select', "loss_ranking_select", "all_token_select"
 
 
 ### training data
